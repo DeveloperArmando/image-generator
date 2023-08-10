@@ -1,0 +1,39 @@
+body {
+    background: #202020;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 20px);
+}
+
+.card {
+    background: #2a2a2a;
+    border-radius: 7px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #202020;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.img {
+    margin-top: 10px;
+    width: 70%;
+}
